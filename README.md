@@ -1,4 +1,5 @@
-<img scr="./code.jpeg">
-# cpp
+<img src="./code.jpeg">
+
+#cpp
 
 
