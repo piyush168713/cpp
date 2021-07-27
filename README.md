@@ -1,3 +1,4 @@
+<img scr="./code.jpeg">
 # cpp
 
-<img scr="./code.jpeg">
+
