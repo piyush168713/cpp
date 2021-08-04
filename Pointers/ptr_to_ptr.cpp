@@ -12,8 +12,10 @@ int main()
     cout<<*p<<endl;   //ptr to ptr  // it print value of a "*p = * &a" "10"
 
     int **q = &p;  //address of p is asdf let so value of q is asdf
-    cout<<*q<<endl;  //it print value of p i.e.abcd   ///address is supposed
-    cout<<**q<<endl;  // ptr to ptr to ptr // **q 1st calls the value of *p then *p means value of a i.e.10
+    //int **q;
+    //*q = &p;
+    cout<<*q<<endl;  //it print address of p i.e.asdf   ///address is supposed
+    cout<<**q<<endl;  // ptr to ptr to ptr // **q 1st calls the *q means address of &p then **q means value of a i.e.10
 
     return 0;
 }
